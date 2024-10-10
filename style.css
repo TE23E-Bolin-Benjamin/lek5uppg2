@@ -1,0 +1,89 @@
+/* Generell styling för divarna */
+div {
+    border: 3px solid #D6001C;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Rubrikcentrering */
+.rubrik {
+    text-align: center;
+}
+
+/* Bakgrundsstyling */
+.bakgrund {
+    background-image: url(img/snow_winter_trees.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 400px;
+    text-align: center;
+}
+
+/* Bilder */
+.bilder {
+    width: 150px;
+    border: 3px solid black;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Flexbox för layouten */
+.mellan {
+    display: flex;
+    justify-content: space-between; /* Sprider ut elementen längs med radens längd */
+    align-items: center; /* Centrerar elementen vertikalt */
+    margin-bottom: 10px;
+}
+
+/* Vänster sektion - Länkar */
+.vänster {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Justerar länkarna till vänster */
+    margin-left: 5px;
+    height: 455px;
+    
+}
+
+/* Mitten sektion - Text */
+.mitten {
+    flex-grow: 1; /* Gör att mitten tar upp så mycket plats som möjligt */
+    text-align: center;
+    margin: 0 20px; /* Ger lite utrymme mellan vänster och höger */
+}
+
+/* Höger sektion - Bild */
+.höger {
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-end; /* Placerar bilden åt höger */
+    align-items: center;
+
+    
+}
+
+/* Julträd-styling */
+.julträd {
+    width: 50px;
+    height: 435px;
+    margin: 10px;
+}
+
+/* Sidfot */
+.sidfot {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Font styling */
+.mountains-of-christmas-bold {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 50px;
+    
+}
